@@ -16,6 +16,7 @@
 
 📌 **Tech** **Blog:**  [https://velog.io/@gudcks0305](https://velog.io/@gudcks0305)
 
+📌 **개인 작업물 재밌는것 ** **모음:**  [https://site.fun-utils.com/](https://site.fun-utils.com/)
 
  ### 🛠 Stacks
  #### BE
@@ -47,4 +48,6 @@
 ### Cooperation Tools
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+
  
