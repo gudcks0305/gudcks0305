@@ -16,7 +16,7 @@
 
 📌 **Tech** **Blog:**  [https://velog.io/@gudcks0305](https://velog.io/@gudcks0305)
 
-📌 **개인 작업물 재밌는것 ** **모음:**  [https://site.fun-utils.com/](https://site.fun-utils.com/)
+📌 **뉴스 블로그:**  [https://wp.fun-utils.com/](https://wp.fun-utils.com/)
 
  ### 🛠 Stacks
  #### BE
