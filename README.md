@@ -16,7 +16,7 @@
 
 📌 **Tech** **Blog:**  [https://velog.io/@gudcks0305](https://velog.io/@gudcks0305)
 
-📌 **뉴스 블로그:**  [https://wp.fun-utils.com/](https://wp.fun-utils.com/)
+📌 **뉴스 블로그:**  [https://wp.fun-utils.com/author/Chan](https://wp.fun-utils.com/author/Chan)
 
  ### 🛠 Stacks
  #### BE
