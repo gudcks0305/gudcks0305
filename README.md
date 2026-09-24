@@ -6,10 +6,14 @@
 
 Building reliable backend services and practical tools, from AI evaluation pipelines to native macOS utilities.
 
-[![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=gudcks0305)](https://solved.ac/gudcks0305)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gudcks0305&show_icons=true&theme=dark&hide_border=true)](https://github.com/gudcks0305)
-
 </div>
+
+<details>
+<summary>▶ Explore an AI evaluation workflow</summary>
+
+![Animated diagram of an AI evaluation pipeline from request through durable queue and AI runtime to result](assets/ai-evaluation-pipeline.gif)
+
+</details>
 
 ## Selected Impact
 
