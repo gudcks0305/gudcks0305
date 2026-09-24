@@ -27,18 +27,12 @@ local context with practical product workflows.
 - Game and map tooling around Wuthering Waves / Wuwa data analysis and native
   helper utilities.
 
-## Current Work
+## Open Source Contributions
 
-| Project | Stack | Notes |
-| --- | --- | --- |
-| [screenshot-quick-markup](https://github.com/gudcks0305/screenshot-quick-markup) | Swift | macOS screenshot capture and quick annotation utility. |
-| [clipboard-history-hud](https://github.com/gudcks0305/clipboard-history-hud) | Swift | Lightweight clipboard history HUD for local productivity. |
-| [resume-nextjs](https://github.com/gudcks0305/resume-nextjs) | TypeScript / Next.js | Personal resume and profile site. |
-| [tab-voice-compressor](https://github.com/gudcks0305/tab-voice-compressor) | JavaScript | Chrome extension for realtime voice compression on web media. |
-| [wuma-tracker](https://github.com/gudcks0305/wuma-tracker) | Rust | Native helper tool for Wuwa map workflows. |
-| [persona-llm-chat](https://github.com/gudcks0305/persona-llm-chat) | Java | LLM persona chat and agent-style backend experiments. |
-| [langchain4j-agentic-sse-example](https://github.com/gudcks0305/langchain4j-agentic-sse-example) | Java | LangChain4j agent and SSE example project. |
-| [quarkus-spring-querydsl](https://github.com/gudcks0305/quarkus-spring-querydsl) | Java | Experiment porting QueryDSL-style workflows into Quarkus. |
+- [VHS](https://github.com/charmbracelet/vhs) — Fixed GIF output not being generated after recording; merged upstream and included in [v0.12.1](https://github.com/charmbracelet/vhs/releases/tag/v0.12.1). ([Issue #787](https://github.com/charmbracelet/vhs/issues/787), [PR #788](https://github.com/charmbracelet/vhs/pull/788))
+- [CXX](https://github.com/dtolnay/cxx) — Fixed `cxx-build` failures when shared-header paths cannot be written or linked; included in [1.0.202](https://github.com/dtolnay/cxx/releases/tag/1.0.202). ([PR #1760](https://github.com/dtolnay/cxx/pull/1760))
+- [FileBrowser](https://github.com/gtsteffaniak/filebrowser) — Fixed valid parallel uploads being interrupted by per-file inactivity timeouts; merged upstream and included in [v2.0.7-beta](https://github.com/gtsteffaniak/filebrowser/releases/tag/v2.0.7-beta). ([PR #2950](https://github.com/gtsteffaniak/filebrowser/pull/2950))
+- [Wuma Tracker](https://github.com/wuwamoe/wuma-tracker) — Added native macOS tracker support with a Mach-based process-memory backend and shared Windows/macOS process abstraction. ([PR #6](https://github.com/wuwamoe/wuma-tracker/pull/6))
 
 ## Tech Stack
 
@@ -76,6 +70,4 @@ local context with practical product workflows.
 
 - GitHub: [github.com/gudcks0305](https://github.com/gudcks0305)
 - Blog: [velog.io/@gudcks0305](https://velog.io/@gudcks0305)
-- News / writing: [wp.fun-utils.com/author/Chan](https://wp.fun-utils.com/author/Chan)
-- Problem solving: [solved.ac/gudcks0305](https://solved.ac/gudcks0305)
 
