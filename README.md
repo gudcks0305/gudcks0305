@@ -1,31 +1,29 @@
+<div align="center">
+
 # Chan / yuhyeongchan
 
-Backend developer who likes turning rough ideas into small, working tools.
+**Backend Engineer · Java / Spring · AI Runtime · Cloud & Distributed Systems**
 
-I usually work around Spring-based backend systems, infrastructure, automation,
-and AI-assisted developer workflows. Recently I have been spending more time on
-desktop utilities, game data tooling, and agent-style applications that connect
-local context with practical product workflows.
-
-<div align="center">
+Building reliable backend services and practical tools, from AI evaluation pipelines to native macOS utilities.
 
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=gudcks0305)](https://solved.ac/gudcks0305)
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gudcks0305&show_icons=true&theme=dark&hide_border=true)](https://github.com/gudcks0305)
 
 </div>
 
+## Selected Impact
+
+| **50K messages** | **~40 / sec** | **10s → 1s** |
+| --- | --- | --- |
+| Queue preparation reduced from 2 hours to 1 minute | Email delivery throughput with Amazon SES | Java Lambda cold start with SnapStart |
+
 ## What I Build
 
-- Reliable backend services with Java, Spring Boot, JPA, QueryDSL, Redis, Kafka,
-  MySQL, and Elasticsearch.
-- Infrastructure and deployment workflows with Docker, Kubernetes, Argo CD,
-  Nginx, AWS, and Oracle Cloud.
-- Local-first productivity tools, browser extensions, and desktop apps for
-  workflows that are easier to solve close to the user's machine.
-- AI/LLM experiments that focus on agent workflows, realtime transcription,
-  persona chat, and practical automation.
-- Game and map tooling around Wuthering Waves / Wuwa data analysis and native
-  helper utilities.
+- Backend systems for AI interviews and evaluations, including LLM pipelines, durable job processing, and multi-tenant data workflows.
+- Event-driven services and cloud operations across AWS, Kubernetes, Kafka, and GitOps delivery.
+- AI applications with Spring AI, LangChain4j, OpenAI models, and speech-to-text / text-to-speech.
+- Local-first desktop tools, browser utilities, and native macOS integrations.
+- Open-source fixes and systems work in Rust, process memory access, and macOS tooling.
 
 ## Open Source Contributions
 
@@ -36,35 +34,50 @@ local context with practical product workflows.
 
 ## Tech Stack
 
-### Backend
+<details>
+<summary>Explore technologies by category</summary>
 
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=for-the-badge)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+<h3>Backend &amp; APIs</h3>
 
-### Languages
+![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat&logo=spring&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=flat)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+<h3>AI Runtime</h3>
 
-### Infra
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat&logo=spring&logoColor=white)
+![LangChain4j](https://img.shields.io/badge/LangChain4j-1C3C3C?style=flat)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![STT / TTS](https://img.shields.io/badge/STT_/_TTS-555555?style=flat)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat)
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+<h3>Data &amp; Messaging</h3>
+
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+
+<h3>Cloud &amp; Delivery</h3>
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![EKS](https://img.shields.io/badge/EKS-FF9900?style=flat&logo=amazoneks&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=awslambda&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat&logo=argo&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat&logo=amazoncloudwatch&logoColor=white)
+
+<h3>Systems &amp; Open Source</h3>
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![macOS Mach API](https://img.shields.io/badge/macOS_Mach_API-000000?style=flat&logo=apple&logoColor=white)
+![Mach--O](https://img.shields.io/badge/Mach--O-555555?style=flat)
+
+</details>
 
 ## Links
 
