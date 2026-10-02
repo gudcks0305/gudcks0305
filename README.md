@@ -31,10 +31,18 @@ Building reliable backend services and practical tools, from AI evaluation pipel
 
 ## Open Source Contributions
 
-- [VHS](https://github.com/charmbracelet/vhs) — Fixed GIF output not being generated after recording; merged upstream and included in [v0.12.1](https://github.com/charmbracelet/vhs/releases/tag/v0.12.1). ([Issue #787](https://github.com/charmbracelet/vhs/issues/787), [PR #788](https://github.com/charmbracelet/vhs/pull/788))
-- [CXX](https://github.com/dtolnay/cxx) — Fixed `cxx-build` failures when shared-header paths cannot be written or linked; included in [1.0.202](https://github.com/dtolnay/cxx/releases/tag/1.0.202). ([PR #1760](https://github.com/dtolnay/cxx/pull/1760))
-- [FileBrowser](https://github.com/gtsteffaniak/filebrowser) — Fixed valid parallel uploads being interrupted by per-file inactivity timeouts; merged upstream and included in [v2.0.7-beta](https://github.com/gtsteffaniak/filebrowser/releases/tag/v2.0.7-beta). ([PR #2950](https://github.com/gtsteffaniak/filebrowser/pull/2950))
-- [Wuma Tracker](https://github.com/wuwamoe/wuma-tracker) — Added native macOS tracker support with a Mach-based process-memory backend and shared Windows/macOS process abstraction. ([PR #6](https://github.com/wuwamoe/wuma-tracker/pull/6))
+**8 merged upstream PRs across 7 open-source projects**, verified on October 2, 2026. Merge dates below use Korea Standard Time (UTC+9).
+
+| Project | Contribution | Merged (KST) | Upstream PR |
+| --- | --- | --- | --- |
+| [JSqlParser](https://github.com/JSQLParser/JSqlParser) | Preserved individually quoted parts of qualified column names, including quoted dots and escaped delimiters, while retaining BigQuery namespace behavior. | 2026-10-01 | [#2735](https://github.com/JSQLParser/JSqlParser/pull/2735) |
+| [bot-signal](https://github.com/okasi/bot-signal) | Corrected closed pointer paths being classified as linear movement without changing scoring weights or thresholds. | 2026-10-01 | [#10](https://github.com/okasi/bot-signal/pull/10) |
+| [VHS](https://github.com/charmbracelet/vhs) | Fixed missing GIF output after recording and propagated encoder errors to callers. Released in [v0.12.1](https://github.com/charmbracelet/vhs/releases/tag/v0.12.1). | 2026-09-24 | [#788](https://github.com/charmbracelet/vhs/pull/788) |
+| [FileBrowser](https://github.com/gtsteffaniak/filebrowser) | Prevented active parallel uploads from being interrupted by per-file inactivity timeouts. Released in [v2.0.7-beta](https://github.com/gtsteffaniak/filebrowser/releases/tag/v2.0.7-beta). | 2026-09-13 | [#2950](https://github.com/gtsteffaniak/filebrowser/pull/2950) |
+| [chzzk-plus](https://github.com/kyechan99/chzzk-plus) | Restored hover previews after wide-screen mode replaces the sidebar, preserving preview pinning and cleanup behavior. | 2026-09-12 | [#107](https://github.com/kyechan99/chzzk-plus/pull/107) |
+| [CXX](https://github.com/dtolnay/cxx) | Allowed `cxx-build` to complete when the optional shared-header directory is unwritable, while preserving required local-header errors. Released in [1.0.202](https://github.com/dtolnay/cxx/releases/tag/1.0.202). | 2026-09-12 | [#1760](https://github.com/dtolnay/cxx/pull/1760) |
+| [Wuma Tracker](https://github.com/wuwamoe/wuma-tracker) | Corrected macOS CI configuration for universal DMG builds with ad-hoc signing and disabled updater artifacts for that job. | 2026-06-06 | [#7](https://github.com/wuwamoe/wuma-tracker/pull/7) |
+| [Wuma Tracker](https://github.com/wuwamoe/wuma-tracker) | Added native macOS tracking through Mach process-memory APIs and a shared Windows/macOS process abstraction. | 2026-06-01 | [#6](https://github.com/wuwamoe/wuma-tracker/pull/6) |
 
 ## Tech Stack
 
@@ -87,4 +95,3 @@ Building reliable backend services and practical tools, from AI evaluation pipel
 
 - GitHub: [github.com/gudcks0305](https://github.com/gudcks0305)
 - Blog: [velog.io/@gudcks0305](https://velog.io/@gudcks0305)
-
